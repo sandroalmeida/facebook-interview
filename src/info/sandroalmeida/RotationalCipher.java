@@ -22,6 +22,7 @@ public class RotationalCipher {
                 input = input.substring(0, i) + newChar;
             else
                 input = input.substring(0, i) + newChar + input.substring(i + 1);
+
         }
         return input;
     }
@@ -29,5 +30,7 @@ public class RotationalCipher {
     public static void main(String[] args) {
         System.out.println(rotationalCipher("All-convoYs-9-be:Alert1.", 4));
         // Expected - "Epp-gsrzsCw-3-fi:Epivx5."
+        System.out.println(rotationalCipher("abcdZXYzxy-999.@", 200));
+        // Expected - "stuvRPQrpq-999.@"
     }
 }
