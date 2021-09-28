@@ -1,5 +1,6 @@
 package info.sandroalmeida;
 
+// time - O(n²) space O(n)
 public class ContiguousSubarrays {
 
     public static int[] countSubarrays(int[] arr) {
