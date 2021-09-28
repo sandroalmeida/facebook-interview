@@ -27,6 +27,7 @@ public class RotationalCipher {
     }
 
     public static void main(String[] args) {
-        System.out.println(rotationalCipher("tes-ting111", 10));
+        System.out.println(rotationalCipher("All-convoYs-9-be:Alert1.", 4));
+        // Expected - "Epp-gsrzsCw-3-fi:Epivx5."
     }
 }
