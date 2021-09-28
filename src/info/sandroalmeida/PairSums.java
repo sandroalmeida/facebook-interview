@@ -1,24 +1,21 @@
 package info.sandroalmeida;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 // time - O(n) space O(n)
 public class PairSums {
 
     public static int numberOfWays(int[] arr, int k) {
-        Map<Integer, List<Integer>> diffMap = new HashMap<>();
+        Map<Integer, Integer> diffMap = new HashMap<>();
         int counter = 0;
         for(int i = 0; i < arr.length; i++){
             int diff = k - arr[i];
             if(diffMap.containsKey(arr[i])){
-                List<Integer> list = diffMap.get(arr[i]);
-                counter += list.size();
-                list.add(i);
+                counter += diffMap.get(arr[i]);
+                diffMap.put(arr[i], diffMap.get(arr[i]) + 1);
             } else{
-                diffMap.put(diff, new ArrayList<>(List.of(i)));
+                diffMap.put(diff, 1);
             }
         }
         return counter;
