@@ -3,7 +3,7 @@ package info.sandroalmeida;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class SlowSum {
+public class SlowSum_MaxHeap {
 
     public static int getTotalTime(int[] arr) {
         if(arr.length == 1) return arr[0];
