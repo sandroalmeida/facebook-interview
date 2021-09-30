@@ -2,6 +2,7 @@ package info.sandroalmeida;
 
 import java.util.*;
 
+// time - O(n) space O(n)
 public class MinimumLengthSubstrings {
 
     public static int minLengthSubstring(String s, String t) {

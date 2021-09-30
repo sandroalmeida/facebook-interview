@@ -3,6 +3,7 @@ package info.sandroalmeida;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// time - O(nlog(n)) + O(klog(k)) space O(n)
 public class MagicalCandyBags {
 
     public static int maxCandies(int[] arr, int k) {

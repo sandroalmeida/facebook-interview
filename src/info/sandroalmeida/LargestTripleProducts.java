@@ -3,6 +3,7 @@ package info.sandroalmeida;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// time - O(n) space O(1)
 public class LargestTripleProducts {
 
     public static int[] findMaxProduct(int[] arr) {
