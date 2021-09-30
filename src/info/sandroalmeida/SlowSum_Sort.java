@@ -2,7 +2,7 @@ package info.sandroalmeida;
 
 import java.util.Arrays;
 
-public class SlowSum_Greedy {
+public class SlowSum_Sort {
 
     public static int getTotalTime(int[] arr) {
         if(arr.length == 1) return arr[0];
