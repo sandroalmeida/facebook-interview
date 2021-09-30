@@ -2,6 +2,7 @@ package info.sandroalmeida;
 
 import java.util.Arrays;
 
+// time - O(nlog(n)) space O(1)
 public class SlowSum_Sort {
 
     public static int getTotalTime(int[] arr) {

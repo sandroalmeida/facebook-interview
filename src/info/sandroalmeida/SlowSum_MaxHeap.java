@@ -3,6 +3,7 @@ package info.sandroalmeida;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// time - O(nlog(n)) space O(n)
 public class SlowSum_MaxHeap {
 
     public static int getTotalTime(int[] arr) {
