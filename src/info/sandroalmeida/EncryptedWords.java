@@ -1,5 +1,6 @@
 package info.sandroalmeida;
 
+// time - O(n) space O(n)
 public class EncryptedWords {
 
     public static String findEncryptedWord(String s) {
