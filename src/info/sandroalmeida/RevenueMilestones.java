@@ -1,5 +1,6 @@
 package info.sandroalmeida;
 
+// time - O(n²) space O(n)
 public class RevenueMilestones {
 
    public static int[] getMilestoneDays(int[] revenues, int[] milestones) {

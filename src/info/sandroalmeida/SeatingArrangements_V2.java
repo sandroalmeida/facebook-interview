@@ -2,6 +2,7 @@ package info.sandroalmeida;
 
 import java.util.Arrays;
 
+// time - O(n) space O(n)
 public class SeatingArrangements_V2 {
 
     public static int minOverallAwkwardness(int[] arr) {
